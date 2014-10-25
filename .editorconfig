@@ -1,0 +1,28 @@
+# http://editorconfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# All files
+[*]
+charset = utf-8
+insert_final_newline = true
+
+[*.{js,json}]
+indent_size = 4
+indent_style = space
+trim_trailing_whitespace = true
+
+[*.{scss,css}]
+indent_size = 2
+indent_style = space
+trim_trailing_whitespace = true
+
+[*.{html,php,rb,xml}]
+indent_size = 4
+indent_style = space
+trim_trailing_whitespace = true
+
+[*.md]
+indent_style = tab
+trim_trailing_whitespace = false
