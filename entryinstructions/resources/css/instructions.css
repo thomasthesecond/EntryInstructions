@@ -3,13 +3,40 @@
 }
 
 #fields-instructions-field .heading .instructions {
-  background-color: #fffceb;
+  background: #fffceb;
   border-radius: 2px;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .1);
   color: #53524f;
   font-family: 'HelveticaNeue', 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 13px;
   line-height: 16px;
   min-height: 30px;
-  padding: 12px 14px 10px;
+  padding: 22px 24px 20px;
 }
+
+#fields-instructions-field .heading .instructions h1,
+#fields-instructions-field .heading .instructions h2,
+#fields-instructions-field .heading .instructions h3,
+#fields-instructions-field .heading .instructions h4,
+#fields-instructions-field .heading .instructions h5,
+#fields-instructions-field .heading .instructions h6 {
+  color: inherit;
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 1;
+}
+
+#fields-instructions-field .heading .instructions h1,
+#fields-instructions-field .heading .instructions h2 {
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  padding-bottom: 6px;
+}
+
+#fields-instructions-field .heading .instructions h1 { font-size: 19px; margin-bottom: 0; }
+#fields-instructions-field .heading .instructions h2 { font-size: 17px; }
+#fields-instructions-field .heading .instructions h3 { font-size: 15px; }
+#fields-instructions-field .heading .instructions h4 { font-size: 13px; }
+#fields-instructions-field .heading .instructions h5 { font-size: 11px; }
+#fields-instructions-field .heading .instructions h6 { font-size:  9px; }
+
+#fields-instructions-field .heading .instructions a { text-decoration: underline; }

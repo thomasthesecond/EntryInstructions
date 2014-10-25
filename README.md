@@ -12,3 +12,7 @@ Upload the entryinstructions/ folder to your craft/plugins/ folder.
 1. Create a new field
 2. Set the Field Type to "Instructions"
 3. Add your instructions
+
+### Screenshot
+
+<img src="screenshot.png" alt="Screenshot of Instructions in Control Panel" width="100%">
