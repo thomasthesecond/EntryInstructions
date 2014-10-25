@@ -8,7 +8,7 @@ class EntryInstructions_InstructionsFieldType extends BaseFieldType
         return Craft::t('Instructions');
     }
 
-    public function getInputHtml($name, $value)
+    public function getInputHtml()
     {
         return craft()->templates->render('entryinstructions/_instructions/layout');
     }
