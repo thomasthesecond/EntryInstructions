@@ -11,7 +11,7 @@ Upload the entryinstructions/ folder to your craft/plugins/ folder.
 
 1. Create a new field
 2. Set the Field Type to "Instructions"
-3. Add your instructions
+3. Write your instructions in Markdown
 
 ### Screenshot
 

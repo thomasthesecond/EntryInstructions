@@ -10,7 +10,7 @@ class EntryInstructionsPlugin extends BasePlugin
 
     function getVersion()
     {
-        return '1.0.0';
+        return '1.1.0';
     }
 
     function getDeveloper()
@@ -20,6 +20,6 @@ class EntryInstructionsPlugin extends BasePlugin
 
     function getDeveloperUrl()
     {
-        return 'http://thomasthesecond.com';
+        return 'https://github.com/thomasthesecond/EntryInstructions';
     }
 }
